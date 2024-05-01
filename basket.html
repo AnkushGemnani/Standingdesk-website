@@ -1,0 +1,81 @@
+    <!-- basket.html -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your Basket | Ankush's Stand Ease</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/11cd95e6b1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+        
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="home.html"><img src="assests/images/logo.png" alt="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="home.html">Home Page</a></li>
+                        <li><a href="risingdesk.html">Rising Desk</a></li>
+                        <li><a href="healthbenefits.html">Health Benefits</a></li>
+                        <li><a href="ContactUs.html">Contact Us</a></li>
+                        <li><a href="basket.html">Basket</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Your Basket</h1>
+        </section>
+
+        
+    <!-- Basket Section -->
+    <section class="basket">
+        <div class="basket-items"></div>
+        <div class="total-price">
+            <table id="cart-table">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items-body"></tbody>
+            </table>
+            <p id="subtotal"></p>
+            <p id="tax"></p>
+            <p id="total"></p>
+        </div>
+        <div class="checkout-btn">
+            <button class="red-btn">Proceed to Checkout</button>
+        </div>
+    </section>
+
+        <!-- Footer section -->
+        <section class="footer">
+    <h4>About us</h4>
+    <p>At StandEase, we are passionate about revolutionizing the modern workspace with our innovative ergonomic solutions.<br> With years of experience in the industry, we understand the importance of creating a workspace that promotes health, productivity, and comfort. 
+        <br>Our mission is to provide high-quality standing desks and ergonomic furniture that empower individuals to work smarter and live healthier lives. 
+        <br>Backed by our commitment to excellence and customer satisfaction, we strive to exceed expectations with every product we offer. 
+        <br>Discover the difference that StandEase can make in your workspace today.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/ankush.gemnani">Facebook  <i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/ankush_gemnani">Twitter  <i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/anku.shhhh_/">Instagram  <i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/ankush-gemnani-34a8a9207/">Linked In  <i class="fab fa-linkedin"></i></a>
+            
+        </div>
+        <p>Made with <i class="fa-solid fa-heart"></i> by Ankush Gemnani</p>
+</section>
+        <script src="basket.js"></script>
+        <script src="menu.js"></script>
+    </body>
+    </html>
