@@ -21,7 +21,7 @@ HTML5
 CSS3
 JavaScript (for interactive elements)
 Support and Feedback
-For any questions, issues, or feedback related to the website, please contact our support team at support@standingdesk.com.
+For any questions, issues, or feedback related to the website, please contact our support team at amazingankush2714@gmail.com.
 
 Thank you for visiting our Standing Desk Website! We hope you enjoy your browsing experience and find valuable information about standing desks and their benefits.
 
